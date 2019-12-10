@@ -1,0 +1,31 @@
+---
+layout: navbar
+title: Projects
+---
+
+<div class="sidebar-left">
+    <div class="filler-left"></div>
+</div>
+
+<div class="container">
+    {% for project in site.projects %}
+        {% if forloop.index == 1 %}
+            <h2>Organizations</h2>
+        {% endif %}
+        {% if forloop.index == 3 %}
+            <h2>Personal</h2>
+        {% endif %}
+        {% if forloop.index == 9 %}
+            <h2>Coursework</h2>
+        {% endif %}
+        {{ project }}
+        <br><hr><br>
+
+        <div class="modal" id="{{ project.modal }}">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>{{ project.name }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>

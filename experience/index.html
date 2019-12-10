@@ -1,0 +1,15 @@
+---
+layout: navbar
+title: Experience
+---
+
+<div class="sidebar-left">
+    <div class="filler-left"></div>
+</div>
+
+<div class="container">
+    {% for experience in site.experiences %}
+        {{ experience }}
+        <hr>
+    {% endfor %}
+</div>

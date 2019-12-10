@@ -1,0 +1,295 @@
+/* OVERARCHING CSS */
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    --image-size: 15vw;
+}
+  
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    height: auto;
+}
+  
+.clear {
+    clear: both;
+    line-height: 0;
+}
+  
+div {
+    position: relative;
+    margin: 0 auto;
+}
+
+/* NAVBAR CSS */
+nav {
+    text-align: center;
+    width: 100%;
+    background: white;
+}
+  
+nav a {
+    font-size: 110%;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #D3D3D3;
+}
+
+nav ul {
+    margin-top: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.home-content {
+    width: 100%;
+}
+
+.container {
+    padding: 20px;
+    width: 60%;
+    float: left;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0px;
+}
+  
+.sidebar-left, .sidebar-right {
+    width: 20%;
+    float: left;
+}
+
+.sidebar-left {
+    padding-left: 15px;
+}
+
+.tweets {
+    height: 50vh;
+    overflow: scroll;
+}
+
+.sidebar-right {
+    padding-right: 15px;
+}
+
+.filler-left, .filler-right {
+    width: 100%;
+    height: var(--image-size);
+    line-height: var(--image-size);
+    text-align: center;
+}
+
+.desclink {
+    text-decoration: none;
+    color: #2E86AB;
+}
+  
+.desclink:hover {
+    color: gray;
+}
+
+.svglist {
+    margin-bottom: 3%;
+}
+
+.svglist a {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.svglist img {
+    width: 15%;
+}
+
+.break {
+    width: 90%;
+    margin-bottom: 1px;
+}
+
+.heading {
+    width: 100%;
+    height: var(--image-size);
+}
+
+.mid {
+    width: 80%;
+    line-height: var(--image-size);
+    height: var(--image-size);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 4vw;
+}
+
+.filler-left img {
+    width: var(--image-size);
+    height: var(--image-size);
+    border-radius: 50%;
+}
+
+.content {
+    width: 85%;
+    text-align: center;
+}
+
+.small-break {
+    display: block;
+    height: 15px;
+}
+
+.personal-desc {
+    width: 100%;
+    font-size: 1.5vw;
+    text-align: left;
+}
+  
+.personal-desc.left {
+    font-size: 1.25vw;
+}
+  
+.personal-desc.left a {
+    color: black;
+    text-decoration: none;
+}
+  
+.personal-desc.left .svglist {
+    text-align: center;
+}
+  
+.personal-desc.a {
+    text-decoration: none;
+    color: white;
+}
+  
+.personal-desc.blurb {
+    background: #2E86AB;
+    padding: 5px;
+}
+  
+.personal-desc.blurb:hover {
+    cursor: pointer;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contentdesc {
+    font-size: 1.5vw;
+}
+
+.expimg {
+    width: 22%;
+    float: left;
+}
+
+.project {
+    padding: 5px;
+    /* box-shadow: 0 2px 4px 0 rgba(252, 161, 161, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.project h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.expimg img {
+    width: 100%;
+}
+
+.expdesc {
+    width: 75%;
+    float: right;
+}
+
+.exptitle {
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.exptime {
+    color: #605F5D;
+    font-size: 1.5vw;
+}
+
+footer {
+    text-align: center;
+    background: #fefefe;
+    padding: 2px;
+    height: 5vh;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+  
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.modal-content p {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #2E86AB;
+    border: none;
+    color: white;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2e6e99;
+}
+
+.postlist li {
+    height: 100vh;
+    display: block;
+}
+
+.post {
+    height: 100vh;
+}

@@ -1,0 +1,23 @@
+name: Declan Sullivan
+markdown: kramdown
+collections:
+  posts:
+    permalink: /blog/:year/:month/:day/:title
+  experiences:
+    order:
+      - amazon.md
+      - tse.md
+      - dsc.md
+      - robo.md
+  projects:
+    order:
+      - livewell.md
+      - robosub.md
+      - chess.md
+      - beacon.md
+      - distancediary.md
+      - astar.md
+      - wikidiver.md
+      - website.md
+      - dsc30.md
+      - dsc80.md

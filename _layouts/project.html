@@ -1,0 +1,13 @@
+<script src="/projects/modals.js"></script>
+<div class="project">
+    <div class="expimg">
+        <img src="{{ page.img }}"/>
+    </div>
+    <div class="expdesc">
+        <h3>{{ page.name }}</h3>
+        <button class="button" onclick="window.open('{{ page.github }}', '_blank')">Github Repo</button>
+        <button class="button" onclick="displayModal('{{ page.modal }}')">More Info</button>
+        {{ content }}
+    </div>
+    <br class="clear" />
+</div>
