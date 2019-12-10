@@ -5,6 +5,7 @@ name: UC San Diego
 title: Data Science Instructional Assistant
 dates: Fall 2018, ongoing
 img: /images/ucsd.png
+priority: 2
 ---
 
 Educating students on data structures and algorithms in Python and Java. 

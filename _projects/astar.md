@@ -5,6 +5,7 @@ name: A*
 modal: astar
 img: /images/astar.png
 github: https://github.com/declansullivan/AStar-Pathfinding
+priority: 6
 ---
 
 Visualization of the A* pathfinding algorithm. Written in Python using the 

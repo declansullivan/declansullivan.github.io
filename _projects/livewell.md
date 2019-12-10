@@ -5,6 +5,7 @@ name: Live Well Market Analysis Tool
 modal: livewell
 img: /images/livewell.jpeg
 github: https://github.com/TritonSE/live-weller
+priority: 1
 ---
 
 Web application built with JavaScript, JQuery, MongoDB, Firebase, and 

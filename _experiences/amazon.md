@@ -5,6 +5,7 @@ name: Amazon
 title: Software Development Engineer Intern
 dates: June 15, 2020 - September 4, 2020
 img: /images/amazon.png
+priority: 1
 ---
 
 Incoming Software Development Engineer Intern at Amazon for the summer of 2020. 

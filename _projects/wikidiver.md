@@ -5,6 +5,7 @@ name: Wiki-Diver
 modal: wikidiver
 img: /images/twitbot.jpeg
 github: https://github.com/declansullivan/wiki-diver
+priority: 7
 ---
 
 Twitter bot written in Python running on a Raspberry Pi in my room. Started 

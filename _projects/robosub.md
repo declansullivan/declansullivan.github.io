@@ -5,6 +5,7 @@ name: Gate Detector
 modal: robosub
 img: /images/gates.jpeg
 github: https://github.com/declansullivan/gate-detector
+priority: 2
 ---
 
 Python script written for the Triton Robosub team. Used the OpenCV and NumPy 

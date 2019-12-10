@@ -8,7 +8,8 @@ title: Projects
 </div>
 
 <div class="container">
-    {% for project in site.projects %}
+    {% assign projects = site.projects | sort: 'priority' %}
+    {% for project in projects %}
         {% if forloop.index == 1 %}
             <h2>Organizations</h2>
         {% endif %}

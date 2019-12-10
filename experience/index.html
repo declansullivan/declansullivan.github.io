@@ -8,7 +8,8 @@ title: Experience
 </div>
 
 <div class="container">
-    {% for experience in site.experiences %}
+    {% assign experiences = site.experiences | sort: 'priority' %}
+    {% for experience in experiences %}
         {{ experience }}
         <hr>
     {% endfor %}

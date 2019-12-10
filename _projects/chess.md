@@ -5,6 +5,7 @@ name: Chess Tournament Tool
 modal: chesstool
 img: /images/chess.jpeg
 github: https://github.com/declansullivan/Chess-Tournament-Tool
+priority: 3
 ---
 
 Program designed for my high school calculus teacher. Written in Java and using 

@@ -5,6 +5,7 @@ name: Triton Software Engineering
 title: Project Manager / Developer
 dates: Fall 2018, ongoing
 img: /images/tse.png
+priority: 3
 ---
 
 Leading a team in the development of a website for the United Women of East Africa

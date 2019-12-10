@@ -5,6 +5,7 @@ name: Distance Diary
 modal: distancediary
 img: /images/distancediary.jpeg
 github: https://github.com/declansullivan/distance-diary
+priority: 5
 ---
 
 Alexa skill written in Python made for the Tech for Good Hackathon. Uses AWS 

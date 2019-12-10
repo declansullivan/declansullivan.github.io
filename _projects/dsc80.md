@@ -4,6 +4,7 @@ collection: projects
 name: DSC 80 - The Practice and Applications of Data Science
 modal: dsc80
 img: /images/dsc80.jpeg
+priority: 10
 ---
 
 DSC 80 - The Practice and Application of Data Science

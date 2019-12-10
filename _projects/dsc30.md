@@ -4,6 +4,7 @@ collection: projects
 name: DSC 30 - Data Structures and Algorithms
 modal: dsc30
 img: /images/dsc30.jpeg
+priority: 9
 ---
 
 Java course that involved implementing data structures like stacks, queues, 

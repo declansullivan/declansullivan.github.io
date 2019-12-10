@@ -5,6 +5,7 @@ name: Triton Robosub
 title: Computer Vision Developer
 dates: Winter 2019
 img: /images/robosub.png
+priority: 4
 ---
 
 Developing Python script that allowed authonomous submarine to make decisions on

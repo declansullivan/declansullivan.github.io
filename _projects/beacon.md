@@ -5,6 +5,7 @@ name: Beacon
 modal: beacon
 img: /images/beacon.jpeg
 github: https://github.com/jayrc7/Beacon
+priority: 4
 ---
 
 Web application built for SD Hacks 2018. Uses JavaScript, JQuery, Ajax, 
