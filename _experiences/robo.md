@@ -8,7 +8,7 @@ img: /images/robosub.png
 priority: 4
 ---
 
-Developing Python script that allowed authonomous submarine to make decisions on
+Developing Python script that allows autonomous submarine to make decisions on
 how to move. Utilizing OpenCV and NumPy to find three orange posts marking gates,
 then finding two closest to more through. Interpreting best direction to move in
 based on submarine position.
