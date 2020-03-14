@@ -153,12 +153,8 @@ h1 {
 
 .personal-desc {
     width: 100%;
-    font-size: 1.5vw;
-    text-align: left;
-}
-  
-.personal-desc.left {
     font-size: 1.25vw;
+    text-align: left;
 }
   
 .personal-desc.left a {
@@ -186,18 +182,13 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.contentdesc {
-    font-size: 1.5vw;
-}
-
 .expimg {
-    width: 22%;
+    width: 20%;
     float: left;
 }
 
 .project {
     padding: 5px;
-    /* box-shadow: 0 2px 4px 0 rgba(252, 161, 161, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .project h3 {
@@ -216,12 +207,10 @@ h1 {
 
 .exptitle {
     font-weight: bold;
-    font-size: 1.7vw;
 }
 
 .exptime {
     color: #605F5D;
-    font-size: 1.5vw;
 }
 
 footer {

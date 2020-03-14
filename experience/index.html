@@ -4,13 +4,13 @@ title: Experience
 ---
 
 <div class="sidebar-left">
-    <div class="filler-left"></div>
+    <div class="filler-left hide"></div>
 </div>
 
 <div class="container">
     {% assign experiences = site.experiences | sort: 'priority' %}
     {% for experience in experiences %}
         {{ experience }}
-        <hr>
+        <br><hr><br>
     {% endfor %}
 </div>
