@@ -4,20 +4,20 @@ title: Projects
 ---
 
 <div class="sidebar-left">
-    <div class="filler-left"></div>
+    <div class="filler-left hide"></div>
 </div>
 
 <div class="container">
     {% assign projects = site.projects | sort: 'priority' %}
     {% for project in projects %}
         {% if forloop.index == 1 %}
-            <h2>Organizations</h2>
+            <h1>Organizations</h1>
         {% endif %}
         {% if forloop.index == 3 %}
-            <h2>Personal</h2>
+            <h1>Personal</h1>
         {% endif %}
         {% if forloop.index == 9 %}
-            <h2>Coursework</h2>
+            <h1>Coursework</h1>
         {% endif %}
         {{ project }}
         <br><hr><br>
